@@ -46,3 +46,7 @@ ul {
 .copyright {
   text-align: center;
 }
+h1 {
+  font-weight: 0.6rem !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="/home/favicon.png">
     <title>Qolab Solutions | About</title>
     <link rel="stylesheet" href="/about/bootstrap/css/bootstrap.min.css" />
     <link
@@ -36,6 +36,39 @@
     <link rel="stylesheet" href="/home/css/menu.css" />
     <link rel="stylesheet" href="/home/css/styles.css">
     <link rel="stylesheet" href="/home/fonts/ionicons.min.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <!-- <script src="https://unpkg.com/@barba/core"></script> -->
+  <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.0.4/pixi.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script>
+    document.documentElement.className = "js";
+    var supportsCssVars = function() {
+      var e,
+        t = document.createElement("style");
+      return (
+        (t.innerHTML = "root: { --tmp-var: bold; }"),
+        document.head.appendChild(t),
+        (e = !!(
+          window.CSS &&
+          window.CSS.supports &&
+          window.CSS.supports("font-weight", "var(--tmp-var)")
+        )),
+        t.parentNode.removeChild(t),
+        e
+      );
+    };
+    supportsCssVars() ||
+      alert(
+        "Please view this demo in a modern browser that supports CSS Variables."
+      );
+  </script>
   </head>
 
   <body id="page-top">
@@ -303,7 +336,7 @@
                 data-aos-delay="600"
                 data-aos-once="true"
               ></i>
-              <h4 class="mb-3">Get paid</h4>
+              <h4 class="mb-3">Get rewarded</h4>
               <p class="text-muted mb-0">
                 Every time you win, you are awarded with monetary prizes by
                 brands.
