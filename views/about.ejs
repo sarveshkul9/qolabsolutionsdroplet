@@ -6,8 +6,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
+    <link rel="shortcut icon" href="favicon.png">
     <title>Qolab Solutions | About</title>
-    <link rel="stylesheet" href="about/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/about/bootstrap/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
@@ -16,7 +17,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic"
     />
-    <link rel="stylesheet" href="about/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="/about/fonts/font-awesome.min.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"
@@ -31,18 +32,78 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="about/css/style.css" />
+    <link rel="stylesheet" href="/about/css/style.css" />
+    <link rel="stylesheet" href="/home/css/menu.css" />
+    <link rel="stylesheet" href="/home/css/styles.css">
+    <link rel="stylesheet" href="/home/fonts/ionicons.min.css" />
   </head>
 
   <body id="page-top">
+        <div class="frame">
+                <div class="frame__nav">
+                    <label class="main-nav-open nav-toggle" for="main-nav-toggle" tabindex="0" aria-label="Menu">
+                        <svg aria-hidden="true" width="28px" height="20px" fill="white" viewBox="0 0 28 20">
+                            <rect x="0" y="2" width="28" height="2"></rect>
+                            <rect x="0" y="10" width="28" height="2"></rect>
+                            <rect x="0" y="18" width="28" height="2"></rect>
+                        </svg>
+                    </label>
+                    <input type="checkbox" id="main-nav-toggle" />
+                    <nav class="main-nav">
+                        <ul class="main-nav__fallback">
+                            <li>
+                                <a href="#creators">Creators Lounge</a>
+                            </li>
+                            <li>
+                                <a href="#studentchapters">Student Bodies</a>
+                            </li>
+                            <li>
+                                <a href="#startups">Startups</a>
+                            </li>
+                            <li>
+                                <a href="#media">Magazine & Blog</a>
+                            </li>
+                            <li>
+                                <a href="/about">About</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact Us</a>
+                            </li>
+                            <li><a target="_blank" class="menu-social _tb" href="https://www.instagram.com/qolab.io">Instagram</a></li>
+                            <li><a target="_blank" class="menu-social _tb" href="https://www.facebook.com/qolab.io">Facebook</a></li>
+                            <li><a target="_blank" class="menu-social _tb" href="https://twitter.com/qolab_io">Twitter</a></li>
+                        </ul>
+                        <label class="main-nav__close nav-toggle" for="main-nav-toggle" tabindex="0" aria-label="Close menu">
+                            <svg aria-hidden="true" width="24" height="22px" viewBox="0 0 24 22">
+                                <path d="M11 9.586L20.192.393l1.415 1.415L12.414 11l9.193 9.192-1.415 1.415L11 12.414l-9.192 9.193-1.415-1.415L9.586 11 .393 1.808 1.808.393 11 9.586z">
+                            </svg>
+                        </label>
+                    </nav>
+                </div>
+                <!-- <div class="circle">
+                    <svg viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M75,100 C88.8071187,100 100,88.8071187 100,75 C100,61.1928813 88.8071187,50 75,50 C61.1928813,50 50,61.1928813 50,75 C50,88.8071187 61.1928813,100 75,100 Z"></path>
+                    </svg>
+                </div> -->
+                
+                <div class="frame__title-wrap">
+                    <h1 class="frame__title"><a href="/">Qolab Solutions</a></h1>
+                    <span class="frame__info">Click on the menu icon or press enter on keyboard</span>
+                </div>
+                <div class="frame__links">
+                    <a href="register.html">Register</a>
+                    <a href="#login">Login</a>
+                    <a href="/about">About</a>
+                </div>
+            </div>
     <section id="about" class="bg-primary">
       <div class="container">
         <div class="row">
           <div class="col offset-lg-8 mx-auto text-center">
             <h2 class="text-white section-heading">About Us</h2>
-            <img id="logo_about" src="about/img/about/fav.png" />
+            <img id="logo_about" src="/about/img/about/fav.png" />
             <hr class="light my-4" />
-            <p class="text-faded mb-4">
+            <p id="about_p" class="text-faded mb-4" align="justify">
               Qolab is a modular online end to end innovation management program
               that enables you to innovate and create value in a flexible,
               engaging and rewarding way. We believe that buried deep within
@@ -78,7 +139,7 @@
                 <div class="timeline-image">
                   <img
                     class="rounded-circle img-fluid"
-                    src="about/img/about/1.jpg"
+                    src="/about/img/about/1.jpg"
                   />
                 </div>
                 <div class="timeline-panel">
@@ -99,7 +160,7 @@
                 <div class="timeline-image">
                   <img
                     class="rounded-circle img-fluid"
-                    src="about/img/about/2.jpg"
+                    src="/about/img/about/2.jpg"
                   />
                 </div>
                 <div class="timeline-panel">
@@ -121,7 +182,7 @@
                 <div class="timeline-image">
                   <img
                     class="rounded-circle img-fluid"
-                    src="about/img/about/3.jpg"
+                    src="/about/img/about/3.jpg"
                   />
                 </div>
                 <div class="timeline-panel">
@@ -143,7 +204,7 @@
                 <div class="timeline-image">
                   <img
                     class="rounded-circle img-fluid"
-                    src="about/img/about/4.jpg"
+                    src="/about/img/about/4.jpg"
                   />
                 </div>
                 <div class="timeline-panel">
@@ -165,7 +226,7 @@
                 <div class="timeline-image">
                   <img
                     class="rounded-circle img-fluid"
-                    src="about/img/about/trophy.png"
+                    src="/about/img/about/trophy.png"
                   />
                   <!-- <h4>Be Part<br>&nbsp;Of Our<br>&nbsp;Story!</h4> -->
                 </div>
@@ -256,8 +317,8 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-sm-6 col-lg-4">
-            <a class="portfolio-box" href="about/img/fullsize/1.jpg"
-              ><img class="img-fluid" src="about/img/thumbnails/1.jpg" />
+            <a class="portfolio-box" href="/about/img/fullsize/1.jpg"
+              ><img class="img-fluid" src="/about/img/thumbnails/1.jpg" />
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -269,8 +330,8 @@
             >
           </div>
           <div class="col-sm-6 col-lg-4">
-            <a class="portfolio-box" href="about/img/fullsize/2.jpg"
-              ><img class="img-fluid" src="about/img/thumbnails/2.jpg" />
+            <a class="portfolio-box" href="/about/img/fullsize/2.jpg"
+              ><img class="img-fluid" src="/about/img/thumbnails/2.jpg" />
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -282,8 +343,8 @@
             >
           </div>
           <div class="col-sm-6 col-lg-4">
-            <a class="portfolio-box" href="about/img/fullsize/3.jpg"
-              ><img class="img-fluid" src="about/img/thumbnails/3.jpg" />
+            <a class="portfolio-box" href="/about/img/fullsize/3.jpg"
+              ><img class="img-fluid" src="/about/img/thumbnails/3.jpg" />
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -295,8 +356,8 @@
             >
           </div>
           <div class="col-sm-6 col-lg-4">
-            <a class="portfolio-box" href="about/img/fullsize/4.jpg"
-              ><img class="img-fluid" src="about/img/thumbnails/4.jpg" />
+            <a class="portfolio-box" href="/about/img/fullsize/4.jpg"
+              ><img class="img-fluid" src="/about/img/thumbnails/4.jpg" />
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -308,8 +369,8 @@
             >
           </div>
           <div class="col-sm-6 col-lg-4">
-            <a class="portfolio-box" href="about/img/fullsize/5.jpg"
-              ><img class="img-fluid" src="about/img/thumbnails/5.jpg" />
+            <a class="portfolio-box" href="/about/img/fullsize/5.jpg"
+              ><img class="img-fluid" src="/about/img/thumbnails/5.jpg" />
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -321,8 +382,8 @@
             >
           </div>
           <div class="col-sm-6 col-lg-4">
-            <a class="portfolio-box" href="about/img/fullsize/6.jpg"
-              ><img class="img-fluid" src="about/img/thumbnails/6.jpg" />
+            <a class="portfolio-box" href="/about/img/fullsize/6.jpg"
+              ><img class="img-fluid" src="/about/img/thumbnails/6.jpg" />
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -345,9 +406,7 @@
             </h3>
             <hr class="my-4" />
             <p class="mb-5">
-              Ready to start your next project with us? That's great! Give us a
-              call or send us an email and we will get back to you as soon as
-              possible!
+                We know it is not an easy path and sometimes you might have doubts even about your brightest ideas. To help you create your best, we are always here to share advice, offer tips and help you move forward.
             </p>
           </div>
         </div>
@@ -370,12 +429,58 @@
         </div>
       </div>
     </section>
-    <script src="about/js/jquery.min.js"></script>
-    <script src="about/bootstrap/js/bootstrap.min.js"></script>
+    <footer>
+            <div class="container" id="footer_text">
+              <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                  <h3>For Brands</h3>
+                  <ul>
+                    <li><a href="#">What We Do</a></li>
+                    <li><a href="#">Learn More</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                  <h3>For Creators</h3>
+                  <ul>
+                    <li><a href="#">Creative Techniques</a></li>
+                    <li><a href="#">Community Support</a></li>
+                    <li><a href="#">FAQ - Knowledge Base</a></li>
+                    <li><a href="#">Log In</a></li>
+                    <li><a href="#">Create an account</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 item text">
+                  <h3>Qolab Solutions</h3>
+                  <p>
+                    Qolab Solutions is an online crowdsourcing and co-creation platform that allows brands to announce and conduct contests through the Internet. It is also a large community of talented creators who love to solve brands' challenges with fresh thinking, creative ideas and shareable content.
+                  </p>
+                </div>
+                <!-- <div id="footer_social" class="col item social">
+                  <a target="_blank" href="http://www.facebook.com/qolab.io"><i class="icon ion-social-facebook"></i></a
+                  ><a target="_blank" href="https://twitter.com/qolab_io"><i class="icon ion-social-twitter"></i></a
+                  ><a target="_blank" href="https://www.linkedin.com/company/qolab-solutions"><i class="icon ion-social-linkedin"></i></a
+                  ><a target="_blank" href="https://www.instagram.com/qolab.io"><i class="icon ion-social-instagram"></i></a>
+                </div> -->
+              </div>
+              <div>
+                <img
+                    class="d-lg-flex justify-content-center align-items-center ml-auto ml-sm-auto ml-md-auto justify-content-lg-center align-items-lg-center ml-lg-auto ml-xl-auto visible"
+                    src="/home/img/Alpha%20-%20badge.png"
+                    width="70"
+                    height="70"
+                /></div>
+              <p class="copyright">Qolab Solutions © 2019</p>
+            </div>
+          </footer>
+    <script src="/home/js/jquery.min.js"></script>
+    <script src="/home/js/pixi.min.js"></script>
+    <script src="/home/js/main.js"></script>
+    <script src="/about/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <script src="about/js/creative.js"></script>
-    <script src="about/js/bs-animation.js"></script>
+    <script src="/about/js/creative.js"></script>
+    <script src="/about/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
   </body>
 </html>

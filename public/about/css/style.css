@@ -32,3 +32,17 @@ p {
 #mail_about {
   color: #e0e0e0;
 }
+#about_p {
+  font-size: 1.7rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+#footer_text {
+  text-align: left;
+}
+.copyright {
+  text-align: center;
+}
