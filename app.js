@@ -114,8 +114,8 @@ function isLoggedIn(req, res, next) {
 app.get("/ideation", function(req, res) {
   res.render("ideation");
 });
-app.get("/contest_landing", function(req, res) {
-  res.render("contest_landing");
+app.get("/lounge", function(req, res) {
+  res.render("lounge");
 });
 app.get("/contact", function(req, res) {
   res.render("contact");
