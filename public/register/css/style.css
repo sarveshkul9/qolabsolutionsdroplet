@@ -1,11 +1,12 @@
 #haveanaccount {
   color: #e5e5e5;
   background-color: #2198a6 !important;
+  height: 3.5rem;
 }
 .page-content {
   width: 100%;
   margin: 0 auto;
-  margin-top: -10%;
+  margin-top: -13%;
   background: #26262c;
   display: flex;
   display: -webkit-flex;
@@ -201,7 +202,7 @@
   -ms-outline: none;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
-  color: #333;
+  color: #e8e8e8 !important;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

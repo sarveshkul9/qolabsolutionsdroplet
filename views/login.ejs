@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Sign In | Qolab Solutins</title>
+    <!-- Mobile Specific Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <!-- Font-->
+    <link rel="stylesheet" type="text/css" href="css/opensans-font.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/line-awesome/css/line-awesome.min.css"
+    />
+    <!-- Jquery -->
+    <link
+      rel="stylesheet"
+      href="https://jqueryvalidation.org/files/demo/site-demos.css"
+    />
+    <!-- Main Style Css -->
+    <link rel="stylesheet" href="/register/css/styles.css" />
+    <link rel="stylesheet" href="/register/css/style.css" />
+    <link rel="stylesheet" href="/register/css/menu.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <!-- <script src="https://unpkg.com/@barba/core"></script> -->
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.0.4/pixi.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function() {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+  </head>
+  <body class="form-v4">
+        <div class="frame">
+                <div class="frame__nav">
+                    <label class="main-nav-open nav-toggle" for="main-nav-toggle" tabindex="0" aria-label="Menu">
+                        <svg aria-hidden="true" width="28px" height="20px" fill="white" viewBox="0 0 28 20">
+                            <rect x="0" y="2" width="28" height="2"></rect>
+                            <rect x="0" y="10" width="28" height="2"></rect>
+                            <rect x="0" y="18" width="28" height="2"></rect>
+                        </svg>
+                    </label>
+                    <input type="checkbox" id="main-nav-toggle" />
+                    <nav class="main-nav">
+                        <ul class="main-nav__fallback">
+                            <li>
+                                <a href="#creators">Creators Lounge</a>
+                            </li>
+                            <li>
+                                <a href="#studentchapters">Student Bodies</a>
+                            </li>
+                            <li>
+                                <a href="#startups">Startups</a>
+                            </li>
+                            <li>
+                                <a href="#media">Magazine & Blog</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact Us</a>
+                            </li>
+                            <li><a target="_blank" class="menu-social _tb" href="https://www.instagram.com/qolab.io">Instagram</a></li>
+                            <li><a target="_blank" class="menu-social _tb" href="https://www.facebook.com/qolab.io">Facebook</a></li>
+                            <li><a target="_blank" class="menu-social _tb" href="https://twitter.com/qolab_io">Twitter</a></li>
+                        </ul>
+                        <label class="main-nav__close nav-toggle" for="main-nav-toggle" tabindex="0" aria-label="Close menu">
+                            <svg aria-hidden="true" width="24" height="22px" viewBox="0 0 24 22">
+                                <path d="M11 9.586L20.192.393l1.415 1.415L12.414 11l9.193 9.192-1.415 1.415L11 12.414l-9.192 9.193-1.415-1.415L9.586 11 .393 1.808 1.808.393 11 9.586z">
+                            </svg>
+                        </label>
+                    </nav>
+                </div>
+                <!-- <div class="circle">
+                    <svg viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path d="M75,100 C88.8071187,100 100,88.8071187 100,75 C100,61.1928813 88.8071187,50 75,50 C61.1928813,50 50,61.1928813 50,75 C50,88.8071187 61.1928813,100 75,100 Z"></path>
+                    </svg>
+                </div> -->
+                
+                <div class="frame__title-wrap">
+                    <h1 class="frame__title"><a href="/">Qolab Solutions</a></h1>
+                    <span class="frame__info">Click on the menu icon or press enter on keyboard</span>
+                </div>
+                <div class="frame__links">
+                    <a href="register.html">Register</a>
+                    <a href="#login">Login</a>
+                    <a href="#about">About</a>
+                </div>
+            </div>
+        </div>
+        <h1 align="center">Sign In</h1>
+    <div class="page-content">
+      <div class="form-v4-content">
+        <div class="form-left">
+          <h2>Not registered yet?</h2>
+          <p class="text-1">
+            Create your account on qolab to be part of the biggest creative community in the world! Compete in the real world business issues from the biggest brands to win fame and fortune, while having fun.
+          </p>
+          <p class="text-2">
+            Express your creativity, practice your skills and become a star
+          </p>
+          <div class="form-left-last">
+            <button onclick="window.location.href = '/register';" class="account" id="haveanaccount" >Create an account</button>
+          </div>
+        </div>
+        <form class="form-detail" action="#" method="post" id="myform">
+          <h2>Sign in with your email address.</h2>
+          <div class="form-row">
+            <label for="your_email">Your Email</label>
+            <input
+              type="text"
+              name="your_email"
+              id="your_email"
+              class="input-text"
+              required
+              pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}"
+            />
+          </div>
+            <div class="form-row">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="input-text"
+                required
+              />
+            </div>
+          <div class="form-row-last">
+            <input
+              type="submit"
+              name="Sign In"
+              class="register"
+              value="Sign In"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script>
+      // just for the demos, avoids form submit
+      jQuery.validator.setDefaults({
+        debug: true,
+        success: function(label) {
+          label.attr("id", "valid");
+        }
+      });
+      $("#myform").validate({
+        rules: {
+          password: "required",
+          comfirm_password: {
+            equalTo: "#password"
+          }
+        },
+        messages: {
+          first_name: {
+            required: "Please enter a firstname"
+          },
+          last_name: {
+            required: "Please enter a lastname"
+          },
+          your_email: {
+            required: "Please provide an email"
+          },
+          password: {
+            required: "Please enter a password"
+          },
+          comfirm_password: {
+            required: "Please enter a password",
+            equalTo: "Wrong Password"
+          }
+        }
+      });
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="/home/js/main.js"></script>
+  </body>
+</html>

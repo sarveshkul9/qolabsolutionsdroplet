@@ -112,7 +112,7 @@ function isLoggedIn(req, res, next) {
 
 // Ideation page==>Live Contests
 app.get("/ideation", function(req, res) {
-  res.render("ideation");
+  res.render("contests");
 });
 app.get("/lounge", function(req, res) {
   res.render("lounge");
